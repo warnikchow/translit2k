@@ -1,10 +1,14 @@
 # translit2k
 Sentence-level To-Korean Transliteration for Code-mixed G2P
 
+## Environment
+Under Python 3.6.6
+
 ## Install
 ```
 git clone https://github.com/warnikchow/translit2k
 cd translit2k
+pip install -r Requirements.txt
 git clone https://github.com/muik/transliteration
 ```
 - Optional
