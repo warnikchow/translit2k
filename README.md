@@ -24,6 +24,19 @@ In python console:
 >>> trans('1999년 8월29일은 john가 mary을 만난 날로 매년 3시15분 방 3-147에서 의식이 거행된다')
 '천구백구십구년 팔월이십구일은 존이 메리를 만난 날로 매년 세시십오분 방 삼다시일사칠에서 의식이 거행된다'
 ```
+- Optional
+If you installed *KoG2P* or *g2pK*, then uncomment either of the followings in *sentranslit.py*:
+```
+''' ## If KoG2P directory is cloned
+from KoG2P.g2p import runKoG2P
+'''
+
+''' ## If G2pK is successfully installed
+from g2p import G2p
+g2p = G2p()
+'''
+```
+You can choose the format of the outcome, English alphabets or Korean characters, by choosing *KoG2P* and *g2pK* respectively.
 
 ## ToDo
 - Enhance DL-based en-ko transliteration (via Transformer?)
