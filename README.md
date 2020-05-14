@@ -8,6 +8,7 @@ Under Python 3.6.6
 ```
 git clone https://github.com/warnikchow/translit2k
 cd translit2k
+pip install pyyaml
 pip install -r Requirements.txt
 git clone https://github.com/muik/transliteration
 ```
