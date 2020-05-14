@@ -34,7 +34,10 @@ from KoG2P.g2p import runKoG2P
 from g2p import G2p
 g2p = G2p()
 ```
-You can choose the format of the outcome, English alphabets or Korean characters, by choosing *KoG2P* and *g2pK* respectively.
+You can choose the format of the outcome, English alphabets or Korean characters, by choosing *KoG2P* and *g2pK* respectively. For example, the following yields *g2pK* result. The default setting gives *KoG2P* counterpart.
+```
+>>> mixed_g2p(sentence,out_type='kor'):
+```
 
 ## ToDo
 - Enhance DL-based en-ko transliteration (via Transformer?)
