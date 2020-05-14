@@ -28,3 +28,4 @@ In python console:
 ## ToDo
 - Enhance DL-based en-ko transliteration
 - Elaborate number and symbol readings in Korean context
+- Add corpus-level processing function
