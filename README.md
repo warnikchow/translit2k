@@ -26,7 +26,7 @@ In python console:
 ```
 - Optional
 If you installed *KoG2P* or *g2pK*, then uncomment either of the followings in *sentranslit.py*:
-```
+```python
 ''' ## If KoG2P directory is cloned
 from KoG2P.g2p import runKoG2P
 '''
