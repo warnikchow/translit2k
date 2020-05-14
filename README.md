@@ -26,6 +26,7 @@ In python console:
 ```
 
 ## ToDo
-- Enhance DL-based en-ko transliteration
+- Enhance DL-based en-ko transliteration (via Transformer?)
 - Elaborate number and symbol readings in Korean context
 - Add corpus-level processing function
+- Develop new DL-based G2P that considers polysemy
