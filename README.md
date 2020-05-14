@@ -27,14 +27,12 @@ In python console:
 - Optional
 If you installed *KoG2P* or *g2pK*, then uncomment either of the followings in *sentranslit.py*:
 ```python
-''' ## If KoG2P directory is cloned
+## If KoG2P directory is cloned
 from KoG2P.g2p import runKoG2P
-'''
 
-''' ## If G2pK is successfully installed
+## If G2pK is successfully installed
 from g2p import G2p
 g2p = G2p()
-'''
 ```
 You can choose the format of the outcome, English alphabets or Korean characters, by choosing *KoG2P* and *g2pK* respectively.
 
