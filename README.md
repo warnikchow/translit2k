@@ -10,6 +10,7 @@ git clone https://github.com/warnikchow/translit2k
 cd translit2k
 pip install pyyaml
 pip install -r Requirements.txt
+bash <(curl -s https://raw.githubusercontent.com/konlpy/konlpy/master/scripts/mecab.sh)
 git clone https://github.com/muik/transliteration
 ```
 - Optional
