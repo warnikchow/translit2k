@@ -26,4 +26,5 @@ In python console:
 ```
 
 ## ToDo
-DL-based en-ko transliteration module currently preparing deployment.
+- Enhance DL-based en-ko transliteration
+- Elaborate number and symbol readings in Korean context
