@@ -10,8 +10,6 @@ from utils import dataset, small, big, real_latin
 from utils import puncs, symbols, sym_han, sym_pro, count_symbols, count_sym_han
 import re
 
-from KoG2P.g2p import runKoG2P
-
 ## Dictionary from https://github.com/muik/transliteration/tree/master/data/source
 dataset = dataset()
 data_dict = {re.sub(' +', ' ',dataset[i][0]).lower(): re.sub(' +', ' ',dataset[i][1]) for i in range(len(dataset))}
