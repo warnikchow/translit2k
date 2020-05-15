@@ -12,11 +12,13 @@ pip install pyyaml
 pip install -r Requirements.txt
 git clone https://github.com/muik/transliteration
 ```
-If you have difficulty in installing MeCab:
+If you have difficulty in importing tagger in MeCab, execute the following:
 ```
 bash <(curl -s https://raw.githubusercontent.com/konlpy/konlpy/master/scripts/mecab.sh)
 ```
-- Optional
+If MeCab still matters, then follow the instruction of [this link](https://sosomemo.tistory.com/30)
+
+- Optional (for G2P process)
 ```
 git clone https://github.com/scarletcho/KoG2P
 pip install https://github.com/Kyubyong/g2pK
