@@ -46,6 +46,9 @@ You can choose the format of the outcome, English alphabets or Korean characters
 >>> mixed_g2p(sentence,out_type='kor'):
 ```
 
+## Acknowledgement
+We sincerely thank [Muik Jeon](https://github.com/muik) for letting us utilize the dataset from [transliteration](https://github.com/muik/transliteration) repository. 
+
 ## ToDo
 - Enhance DL-based en-ko transliteration (via Transformer?)
 - Elaborate number and symbol readings in Korean context
