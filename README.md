@@ -32,6 +32,7 @@ In python console:
 '천구백구십구년 팔월이십구일은 존이 메리를 만난 날로 매년 세시십오분 방 삼다시일사칠에서 의식이 거행된다'
 ```
 - Optional
+
 If you installed *KoG2P* or *g2pK*, then uncomment either of the followings in *sentranslit.py*:
 ```python
 ## If KoG2P directory is cloned
